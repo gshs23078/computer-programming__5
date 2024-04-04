@@ -1,8 +1,12 @@
 #include <iostream>
 #include <vector>
 #include <queue>
+#define endl "\n"
+#define fastio cin.tie(NULL);cout.tie(NULL);ios::sync_with_stdio(false)
+#define int long long
 using namespace std;
-int main(){
+signed main(){
+	fastio;
 	int m, n;
 	cin >> n >> m;
 	vector<int> v(n);
